@@ -82,7 +82,7 @@ window.addEventListener("scroll", function () {
 		if (scrollY >= sectionTop - sectionHeight / 10) {
 			current = section.getAttribute("id");
 		}
-		// console.log(current);
+		console.log("CURRENT",current);
 		navLi.forEach((li) => {
 			li.classList.remove("active-nav");
 			if (li.classList.contains(current)) {
